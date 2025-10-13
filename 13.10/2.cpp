@@ -7,6 +7,10 @@ string brackets(string inputString){
     string answer = "";
     int mid = L/2;
 
+    if(L >=100){
+        return "Строка слишком длинная!!!"
+    }
+    
     if(L < 3){
         return "Строка слишком короткая!!!";
     }
