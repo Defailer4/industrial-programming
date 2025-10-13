@@ -12,7 +12,7 @@ bool mena(int numberOfCigaretts){
 
 int main(){
     int numberOfCigaretts;
-    cout << "Введите numberOfCigaretts: ";
+    cout << "Введите numberOfCigaretts: " << endl;
     cin >> numberOfCigaretts;
     cout << mena(numberOfCigaretts);
     return 0;
